@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Examples</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_example_lifetime">ExampleLifetime</string>
+    <string name="title_activity_transition_screen">TransitionScreen</string>
+    <string name="title_activity_second_screen">SecondScreen</string>
+
+</resources>
