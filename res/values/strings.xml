@@ -7,5 +7,6 @@
     <string name="title_activity_example_lifetime">ExampleLifetime</string>
     <string name="title_activity_transition_screen">TransitionScreen</string>
     <string name="title_activity_second_screen">SecondScreen</string>
+    <string name="title_activity_example_list">ExampleListActivity</string>
 
 </resources>

@@ -9,12 +9,13 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.android.examplelistactivity.ExampleListActivity;
 import com.example.android.lifetime.ExampleLifetime;
 import com.example.android.transitionscreen.TransitionScreen;
 
 public class MenuAndroidExamples extends ListActivity {
 
-	private static final String[] names = new String[] { "Lifetime", "Transition Screen", "SimpleAdapterOne", "SimpleAdapterTwo", "CursorAdapter 1",
+	private static final String[] names = new String[] { "Lifetime", "Transition Screen", "ListActivity", "SimpleAdapterOne", "SimpleAdapterTwo", "CursorAdapter 1",
 			"CursorAdapter 2", };
 
 	@Override
@@ -35,6 +36,9 @@ public class MenuAndroidExamples extends ListActivity {
 			break;
 		case 1:
 			startActivity(new Intent(this, TransitionScreen.class));
+			break;
+		case 2:
+			startActivity(new Intent(this, ExampleListActivity.class));
 			break;
 			// Others Options
 			default:
