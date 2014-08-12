@@ -11,6 +11,8 @@ import android.widget.ListView;
 
 import com.example.android.examplelistactivity.ExampleListActivity;
 import com.example.android.lifetime.ExampleLifetime;
+import com.example.android.simpleadapter.SimpleAdapter;
+import com.example.android.simpleadaptertwo.SimpleAdapterTwo;
 import com.example.android.smileadapter.ExampleSmileAdapter;
 import com.example.android.transitionscreen.TransitionScreen;
 import com.example.androidexamples.R;
@@ -19,7 +21,7 @@ import com.example.androidexamples.R.menu;
 
 public class MenuAndroidExamples extends ListActivity {
 
-	private static final String[] names = new String[] { "Lifetime", "Transition Screen", "ListActivity", "Smile Adapter", "SimpleAdapterOne", "SimpleAdapterTwo", "CursorAdapter 1",
+	private static final String[] names = new String[] { "Lifetime", "Transition Screen", "ListActivity", "Smile Adapter", "ListContact SimpleAdapterOne", "ListContact SimpleAdapterTwo", "CursorAdapter 1",
 			"CursorAdapter 2", };
 
 	@Override
@@ -46,6 +48,13 @@ public class MenuAndroidExamples extends ListActivity {
 			break;
 		case 3:
 			startActivity(new Intent(this, ExampleSmileAdapter.class));
+			break;
+		case 4:
+			startActivity(new Intent(this, SimpleAdapter.class));
+			break;
+		case 5:
+			startActivity(new Intent(this, SimpleAdapterTwo.class));
+			
 			break;
 			// Others Options
 			default:

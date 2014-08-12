@@ -16,10 +16,10 @@ public class SmileAdapter extends BaseAdapter {
 
 	private Context context;
 	private List<Smile> lista;
-	
+
 	public SmileAdapter(Context context, List<Smile> list) {
-	 this.context = context;
-	 this.lista = list;
+		this.context = context;
+		this.lista = list;
 	}
 
 	@Override
@@ -39,19 +39,20 @@ public class SmileAdapter extends BaseAdapter {
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		
+
 		Smile smile = lista.get(position);
-		
-		LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		
+
+		LayoutInflater inflater = (LayoutInflater) context
+				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
 		View v = inflater.inflate(R.layout.smile_details, null);
-		
-		TextView textName = (TextView)v.findViewById(R.id.name);
+
+		TextView textName = (TextView) v.findViewById(R.id.name);
 		textName.setText(smile.name);
-		
-		ImageView img = (ImageView)v.findViewById(R.id.img);
+
+		ImageView img = (ImageView) v.findViewById(R.id.img);
 		img.setImageResource(smile.getImage());
-		
+
 		return v;
 	}
 }

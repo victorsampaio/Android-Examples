@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.androidexamples.MenuAndroidExamples"
+            android:name=".MenuAndroidExamples"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,6 +49,14 @@
         <activity
             android:name="com.example.android.smileadapter.SmileAdapter"
             android:label="@string/title_activity_smile_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.android.simpleadapter.SimpleAdapter"
+            android:label="@string/title_activity_simple_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.android.simpleadaptertwo.SimpleAdapterTwo"
+            android:label="@string/title_activity_simple_adapter_two" >
         </activity>
     </application>
 

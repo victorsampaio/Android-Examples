@@ -11,5 +11,7 @@
     <string name="title_activity_example_smile_adapter">ExampleSmileAdapter</string>
     <string name="title_activity_smile">Smile</string>
     <string name="title_activity_smile_adapter">SmileAdapter</string>
+    <string name="title_activity_simple_adapter">SimpleAdapter</string>
+    <string name="title_activity_simple_adapter_two">SimpleAdapterTwo</string>
 
 </resources>
