@@ -8,5 +8,8 @@
     <string name="title_activity_transition_screen">TransitionScreen</string>
     <string name="title_activity_second_screen">SecondScreen</string>
     <string name="title_activity_example_list">ExampleListActivity</string>
+    <string name="title_activity_example_smile_adapter">ExampleSmileAdapter</string>
+    <string name="title_activity_smile">Smile</string>
+    <string name="title_activity_smile_adapter">SmileAdapter</string>
 
 </resources>
