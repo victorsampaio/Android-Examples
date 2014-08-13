@@ -21,22 +21,25 @@ import com.example.androidexamples.R.menu;
 
 public class MenuAndroidExamples extends ListActivity {
 
-	private static final String[] names = new String[] { "Lifetime", "Transition Screen", "ListActivity", "Smile Adapter", "ListContact SimpleAdapterOne", "ListContact SimpleAdapterTwo", "CursorAdapter 1",
-			"CursorAdapter 2", };
+	private static final String[] names = new String[] { "Lifetime",
+			"Transition Screen", "ListActivity", "Smile Adapter",
+			"ListContact SimpleAdapterOne", "ListContact SimpleAdapterTwo",
+			"Exit", };
 
 	@Override
 	protected void onCreate(Bundle icicle) {
 		super.onCreate(icicle);
 		// setContentView(R.layout.activity_menu_android_examples);
 
-		this.setListAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_expandable_list_item_1, names));
+		this.setListAdapter(new ArrayAdapter<String>(this,
+				android.R.layout.simple_expandable_list_item_1, names));
 
 	}
 
 	@Override
-	protected void onListItemClick(ListView l, View v, int position, long id){
-		
-		switch (position){
+	protected void onListItemClick(ListView l, View v, int position, long id) {
+
+		switch (position) {
 		case 0:
 			startActivity(new Intent(this, ExampleLifetime.class));
 			break;
@@ -54,16 +57,14 @@ public class MenuAndroidExamples extends ListActivity {
 			break;
 		case 5:
 			startActivity(new Intent(this, SimpleAdapterTwo.class));
-			
 			break;
-			// Others Options
-			default:
-			//Finish Activities
+		// Others Options
+		default:
+			// Finish Activities
 			finish();
-		}		
-	}
-	
-	
+		}
+	} 
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
