@@ -24,7 +24,7 @@ public class MenuAndroidExamples extends ListActivity {
 	private static final String[] names = new String[] { "Lifetime",
 			"Transition Screen", "ListActivity", "Smile Adapter",
 			"ListContact SimpleAdapterOne", "ListContact SimpleAdapterTwo",
-			"Exit", };
+			"Exit"};
 
 	@Override
 	protected void onCreate(Bundle icicle) {
